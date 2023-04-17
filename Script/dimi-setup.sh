@@ -53,6 +53,10 @@
     sudo apt install kazam -y
     echo
 
+    echo "install krusader"
+    sudo apt install krusader -y
+    echo
+
     echo "install retext"
     sudo apt install retext -y
     echo

@@ -1,0 +1,18 @@
+############# VentoyPlugson  [x86_64] ################
+Mi 4. Jan 14:18:37 CET 2023
+decompress tools
+############# VentoyPlugson /dev/sdb [x86_64] ################
+Mi 4. Jan 14:19:14 CET 2023
+decompress tools
+[2023/01/04 14:19:14] get disk size from sysfs for /sdb
+[2023/01/04 14:19:14] ===============================================
+[2023/01/04 14:19:14] ===== Ventoy Plugson 127.0.0.1:24681 =====
+[2023/01/04 14:19:14] ===============================================
+[2023/01/04 14:19:14] xzlen:1014472 rawdata size:3563520
+[2023/01/04 14:19:14] Plugson buildtime 20220728 19:39:21
+[2023/01/04 14:19:14] Total extract 128 files from tar file.
+[2023/01/04 14:19:19] parse ventoy.json success
+[2023/01/04 14:19:19] json parse <control>
+[2023/01/04 14:19:19] json parse <theme>
+[2023/01/04 14:19:19] json parse <menu_alias>
+[2023/01/04 14:19:19] json parse <persistence>

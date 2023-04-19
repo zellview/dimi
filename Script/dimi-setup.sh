@@ -97,7 +97,7 @@ echo "enjoy and happy coding"
 echo
 echo "feedback welcome at   zellview@posteo.de"
 echo
-echo "visit us at GitHub https://zellview.network"
+echo "visit us at GitHub https://github.com/zellview"
 echo
 echo "or sponsor zellview https://sponsor.zellview.network"
 echo

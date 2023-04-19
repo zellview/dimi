@@ -2,7 +2,7 @@
 
 echo
 echo "install anydesk"
-beg=$(date  "%H:%M:%s")
+beg=$(date  "%H:%M:%S")
 echo "BEGIN at $beg"
 
 # sudo apt update
@@ -14,7 +14,7 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 sudo apt update
 sudo apt install anydesk -y
 
-end=$(date + "%H:%M:%s")
+end=$(date + "%H:%M:%S")
 echo "script started at $beg"
 echo "END InstallAnydesk. at $end"
 #elap=$($beg-$end)

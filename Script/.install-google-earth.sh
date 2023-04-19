@@ -6,7 +6,7 @@
 
     echo
     echo "install google-earth-pro"
-    beg=$(date +"%H:%M+%S")
+    beg=$(date +"%H:%M:%S")
     echo "BEGIN at $beg"
     echo
 
@@ -18,7 +18,7 @@
     sudo dpkg -i ~/google-earth.deb
     echo "done"
 
-    end=$(date +"%H:%M+%S")
+    end=$(date +"%H:%M:%S")
     echo "script started at $beg"
     echo "InstallGoogleEarth ended $end"
     # elap=$($beg-$end)

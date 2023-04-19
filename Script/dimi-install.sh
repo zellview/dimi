@@ -2,7 +2,7 @@
 
 # MODUL DimiInstall;
 
-# zellview-dimi version 3.1.05 , 17.April 2023
+# zellview-dimi version 3.1.06 , 18.April 2023
 # copyright by zellview network
 
 # CONST
@@ -12,20 +12,21 @@
     sourceUrl="https://download.zellview.network"    # resource locator
     destDevice=$1                                    # destination device
 
-    version="3.1.05"
+    version="3.1.06"
     name="zellview dimi"
     label="zv-dimi"
-    release="Hollies"
+    release="Iggy"
 
     mountPt="mountPoint"
     persistPt="persistence"
 
+    persistVol="zv-persist-8G.dat"
+    reservedSpace=47250     # use for 64GB sticks    
+    
 #   persistVol="zv-persist-mini.dat"
 #   persistVol="zv-persist-4G.dat"
-    persistVol="zv-persist-12G.dat"
-
+#   persistVol="zv-persist-12G.dat"
 #   reservedSpace=21500     # use for 32GB sticks
-    reservedSpace=41500     # use for 64GB sticks
 
 # BEGIN
     echo
@@ -46,7 +47,7 @@
     echo "source-URL  $sourceUrl"
     echo "feedback    zellview@posteo.de"
     echo "base        linuxmint 21.1 vera"
-    echo "boot        ventoy 79"
+    echo "boot        ventoy 88"
     echo
 
 #    echo "persistVolume      $persistVol"
@@ -111,8 +112,8 @@
 
     echo "unzip $persistVol.zip to $persistPt"
     unzip Rsrc/dat/$persistVol.zip -d $mountPt/$persistPt
-    echo "move $persistVol to persistence.dat"
-    mv $mountPt/$persistPt/$persistVol $mountPt/$persistPt/persistence.dat
+#   echo "move $persistVol to persistence.dat"
+#   mv $mountPt/$persistPt/$persistVol $mountPt/$persistPt/persistence.dat
     echo
 
     echo "cleanup mountpoint"

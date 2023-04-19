@@ -20,7 +20,7 @@
     
     if [ -z "$sourceDevice" ]; then
         echo $Modulename
-        echo "This script will create an iso-file from the first ~5G of the device."
+        echo "This script will create an iso-file from the first ~12G of the device."
         echo
         lsblk
         echo
@@ -30,7 +30,7 @@
     beg=$(date +"%H:%M:%S")
     echo "$Modulename start at $beg"
     
-    sudo dd if=/dev/$sourceDevice of=../Rsrc/zv-dimi-3.0.x-ventoy.iso bs=1M count=5500 status=progress
+    sudo dd if=/dev/$sourceDevice of=../Rsrc/iso/zv-dimi-3.1.x-ventoy.iso bs=1M count=12000 status=progress
     
     # finnish
     end=$(date +"%H:%M:%S")

@@ -6,21 +6,20 @@
 # BEGIN
     echo "***********************************************"
     echo $Modulname
-    echo "zellview v3.1.05   17.April 2023"
+    echo "zellview v3.1.06   18.April 2023"
     echo "copyright by zellview network"
     echo "www.zellview.net"
     echo
-    echo "This script will install a basic"
-    echo "software-set for zellview-dimi."
+    echo "This script will install software-set for zellview-dimi."
     echo 
-    echo "anydesk blackbox2 git kazam kate "
-    echo "retext snap wine xfburn zoom"
+    echo "anydesk blackbox2 git google-earth kazam"
+    echo "kate krusader retext wine xfburn "
     echo
     echo "feedback is welcome   zellview@posteo.de"
     echo
-    echo "visit us at GitHub http://zellview.network"
+    echo "visit us at GitHub https://github.com/zellview"
     echo
-    echo "or sponsor our work via http://donate.zellview.network"
+    echo "or sponsor our work here https://donate.zellview.network"
     echo
     echo "Press RETURN to continue or CTRL+C to abort."
     read tmp
@@ -45,6 +44,10 @@
     sudo apt install git -y
     echo
 
+    echo "install google-earth"
+    sudo sh .install-google-earth.sh
+    echo
+   
     echo "install kate"
     sudo apt install kate -y
     echo
@@ -75,6 +78,10 @@
 #   echo "install zoom"
 #   sudo snap install zoom-client
 #   echo 
+
+    echo "apt update"
+    sudo apt update -y
+    echo
 
     end=$(date +"%H:%M:%S")
     echo

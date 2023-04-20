@@ -2,7 +2,7 @@
 
 # MODUL DimiInstall;
 
-# zellview-dimi version 3.1.07 , 19.April 2023
+# zellview-dimi version 3.1.10 , 20.April 2023
 # copyright by zellview network
 
 # CONST
@@ -12,16 +12,16 @@
     sourceUrl="https://download.zellview.network"    # resource locator
     destDevice=$1                                    # destination device
 
-    version="3.1.07"
+    version="3.1.10"
     name="zellview dimi"
     label="zv-dimi"
-    release="Kleo"
+    release="Nina"
 
     mountPt="mountPoint"
     persistPt="persistence"
 
-    persistVol="zv-persist-8G.dat"
-    reservedSpace=47250     # use for 64GB sticks    
+    persistVol="zv-persist-6G.dat"
+    reservedSpace=49000     # use for 64GB sticks
     
 #   persistVol="zv-persist-mini.dat"
 #   persistVol="zv-persist-4G.dat"
@@ -97,7 +97,7 @@
     echo "done"
 
     echo -n "copy iso-image to $mountPt ... "
-    cp Rsrc/iso/$label-$version-pure.iso $mountPt
+    cp ../dimi-rsrc/iso/$label-$version-pure.iso $mountPt
     echo "done"
 
     echo "make dir $mountPt/$persistPt"
@@ -111,7 +111,7 @@
 #   cp Rsrc/$persistVolMini.zip $mountPt/$persistPt 
 
     echo "unzip $persistVol.zip to $persistPt"
-    unzip Rsrc/dat/$persistVol.zip -d $mountPt/$persistPt
+    unzip ../dimi-rsrc/dat/$persistVol.zip -d $mountPt/$persistPt
 #   echo "move $persistVol to persistence.dat"
 #   mv $mountPt/$persistPt/$persistVol $mountPt/$persistPt/persistence.dat
     echo

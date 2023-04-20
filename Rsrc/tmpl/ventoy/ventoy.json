@@ -1,9 +1,10 @@
 {
     "control": [
-        { "VTOY_MENU_TIMEOUT": "30" },
-        { "VTOY_DEFAULT_IMAGE": "/zv-dimi-3.1.07-pure.iso" }
+        { "VTOY_MENU_TIMEOUT": "15" },
+        { "VTOY_DEFAULT_IMAGE": "/zv-dimi-3.1.10-pure.iso" }
+        { "VTOY_SECONDARY_BOOT_MENU": "0" },
     ],
-	
+		
 	"theme": {
         "file": "/ventoy/theme/zellview/theme.txt",
         "gfxmode": "1920x1080",
@@ -18,14 +19,14 @@
 
     "menu_alias": [
         {
-            "image": "/zv-dimi-3.1.07-pure.iso",
+            "image": "/zv-dimi-3.1.10-pure.iso",
             "alias": "zellview - dimi - 3.1"
         }
     ],
 
     "persistence": [
         {
-            "image":  "/zv-dimi-3.1.07-pure.iso",
+            "image":  "/zv-dimi-3.1.10-pure.iso",
             "backend": "/persistence/persistence.dat",
             "autosel": 1
         }

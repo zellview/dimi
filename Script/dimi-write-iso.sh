@@ -2,14 +2,13 @@
 
 # MODULE DimiWriteIso;
 
-# 30. Jan. 2023
+# 20.April 2023
 # source www.github.com/zellview/dimi
-# licence GPL2 under Creative Commons CC by 3.0
 # copyright by zellview network
 
 # CONST
     Modulename="DimiWriteIso"
-    Version="3.0.20"    
+    Version="3.1.10"
 
 # VAR
     destDevice=$1
@@ -29,7 +28,7 @@
         destDevice=/dev/$destDevice
     fi
 
-    sudo time dd if=../Rsrc/iso/zv-dimi-$Version-ventoy.iso of=$destDevice bs=4M status=progress
+    sudo time dd if=../../dimi-rsrc/iso/zv-dimi-$Version-ventoy.iso of=$destDevice bs=4M status=progress
     
     # finnish
     end=$(date +"%H:%M:%S")

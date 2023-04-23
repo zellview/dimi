@@ -18,7 +18,7 @@ Beside the rich software-set that linux-mint comes along with,
 
 To start with ***zellview-dimi*** get  
 
-   https://download.zellview.network/zv-dimi-3.1.10-ventoy.iso 
+   https://download.zellview.network/zellview-dimi.iso 
 
 Create a bootable USB-medium from the iso-file.  
 Restart the computer and select the new medium as boot-device.  

@@ -23,6 +23,10 @@ To start with ***zellview-dimi*** get
 Create a bootable USB-medium from the iso-file.  
 Restart the computer and select the new medium as boot-device.  
   
+Consider to sponsor the future    
+development of zellview here  
+https://sponsor.zellview.network    
+
 enjoy and happy coding  
 
 keep the spirit of Pascal  
@@ -30,12 +34,4 @@ and the message of Niklaus Wirth
 
 the zellview-team  
 
-*****************************************************
-You may visit us at GitHub https://github.com/zellview/dimi
-
-Consider to sponsor the future development of zellview here  
-
-       https://sponsor.zellview.network  
-
 ©2023 copyright by zellview network  
-

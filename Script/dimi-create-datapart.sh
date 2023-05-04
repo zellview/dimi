@@ -22,6 +22,7 @@
     sudo mkfs.ext4 /dev/sdb3
     sudo e2label /dev/sdb3 "zv-data"
     
+    
     # finnish
     end=$(date +"%H:%M:%S")
     echo "$Modulename finnished"

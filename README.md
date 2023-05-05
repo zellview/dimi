@@ -1,35 +1,37 @@
 # zellview dimi (dimitria)
 
-## zellview-dimi is a Linux distribution  
-based on Linux-mint and Ubuntu  
+## zellview-dimi ist eine Linux Distribution  
+basierend auf Linuxmint und Ubuntu  
   
-***zellview-dimi*** can be installed on a USB-stick  
+***zellview-dimi***  kann auf einen USB-Stick startfähig installiert werden.  
   
-The usecases are for example  
-- a rescue and backup-system  
-- a second PC always with you in your pocket  
-- educational purpose (same system at home and at school)
-
-Beside the rich software-set that linux-mint comes along with,  
-***zellview-dimi*** provides several goodies and tools.  
-
-To start with ***zellview-dimi*** get  
-
-   https://download.zellview.network/zellview-dimi.iso.zip
-
-Extract the zip-file.  
-Write the file zv-dimi-3.1.10-ventoy.iso bootable to the stick.  
-for linux-users: right-click the file and choose "Create bootable usb-stick" in context-menu  
-for windows-users: download the file https://dl.zellview.network/exe/rufus-4.0.exe  
-Start the exe (without installation) and follow the instructions  
-
-Restart the computer and select the usb-stick as boot-device.  
+Die möglichen Anwendungen sind:  
+- Linux unverbindlich testen, ohne es auf die Festplatte zu installieren  
+- ein Rettungssystem, wenn der Rechner nicht startet  
+- den eigenen Computer immer dabei in der Hosentasche  
+- ein Rechner für diskrete Anwendungen wie Banking o.ä.  
   
-Consider to sponsor the future    
-development of zellview here  
-https://sponsor.zellview.network    
+Neben der reichhaltigen Softwareausstattung, die Linuxmint  
+schon mitbringt, wie Office, Internet und Bildbearbeitung,  
+hat ***zellview-dimi*** einige zusätzliche Anwendungen vorinstalliert.  
+  
+Unter anderem gibt es einen Windows-Emulator mit dem man seine wichtigen  
+oder beliebten Windows-Anwendungen auch unter Linux starten kann.  
 
-enjoy and happy coding  
+Daneben gibt es Anwendungen zur Video- und  
+Audiobearbeitung, Programmierung und vieles mehr.  
+
+Um mit ***zellview-dimi*** zu starten download  
+>https://download.zellview.network/zellview-dimi.iso  
+
+Mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:  
+  
+>https://download.zellview.network/exe/rufus-4.0.exe  
+
+Jetzt den Rechner neu starten und den USB-Stick als Startmedium wählen.  
+Dies ist je nach Hersteller unterschiedlich. (oft ist es F12 beim Startvorgang)  
+  
+Viel Spass mit ***zellview-dimi*** und linuxmint
 
 keep the spirit of Pascal  
 and the message of Niklaus Wirth  

@@ -1,8 +1,8 @@
 {
     "control": [
         { "VTOY_MENU_TIMEOUT": "15" },
-        { "VTOY_DEFAULT_IMAGE": "/zv-dimi-3.1.10-pure.iso" }
-        { "VTOY_SECONDARY_BOOT_MENU": "0" },
+        { "VTOY_DEFAULT_IMAGE": "/zellview-dimi-3.1.14-pure.iso" },
+        { "VTOY_SECONDARY_BOOT_MENU": "0" }
     ],
 		
 	"theme": {
@@ -12,21 +12,19 @@
         "ventoy_left": "5%",
         "ventoy_top": "90%",
         "ventoy_color": "#0000ff",
-	"fonts": [
-      	       "/ventoy/theme/zellview/dejavu-bold-16.pf2"
-        ]
+        "fonts": [ "/ventoy/theme/zellview/dejavu-bold-16.pf2" ]
     },
 
     "menu_alias": [
         {
-            "image": "/zv-dimi-3.1.10-pure.iso",
+            "image": "/zellview-dimi-3.1.14-pure.iso",
             "alias": "zellview - dimi - 3.1"
         }
     ],
 
     "persistence": [
         {
-            "image":  "/zv-dimi-3.1.10-pure.iso",
+            "image":  "/zellview-dimi-3.1.14-pure.iso",
             "backend": "/persistence/persistence.dat",
             "autosel": 1
         }

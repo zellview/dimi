@@ -2,7 +2,7 @@
 
 # MODUL DimiInstall;
 
-# zellview-dimi version 3.1.10 , 20.April 2023
+# zellview-dimi version 3.1.14 , 8. Mai 2023
 # copyright by zellview network
 
 # CONST
@@ -12,9 +12,9 @@
     sourceUrl="https://download.zellview.network"    # resource locator
     destDevice=$1                                    # destination device
 
-    version="3.1.10"
+    version="3.1.14"
     name="zellview dimi"
-    label="zv-dimi"
+    label="zellview-dimi"
     release="Nina"
 
     mountPt="mountPoint"
@@ -47,7 +47,7 @@
     echo "source-URL  $sourceUrl"
     echo "feedback    zellview@posteo.de"
     echo "base        linuxmint 21.1 vera"
-    echo "boot        ventoy 79"
+    echo "boot        ventoy 91"
     echo
 
 #    echo "persistVolume      $persistVol"

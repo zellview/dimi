@@ -37,7 +37,7 @@ echo
     echo "remove default_background.png"
     rm default_background.jpg
     echo "set background to zellview3_cloudy.png"
-    ln -s /usr/share/dimi/Rsrc/zellview3_cloudy.png default_background.jpg
+    ln -s /zell/dimi/Rsrc/zellview3_cloudy.png default_background.jpg
 
 # END DimiConfig.
 

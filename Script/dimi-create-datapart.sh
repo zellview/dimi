@@ -3,7 +3,7 @@
 
 # MODULE DimiCreateDatapart;
 
-# zellview-dimi version 3.1.11 , 7. Mai 2023
+# zellview-dimi version 3.1.14 , 8. Mai 2023
 # copyright by zellview network
 
 # CONST
@@ -45,7 +45,7 @@
     sudo mkfs.ext4 ${destDevice}3
 
     echo "label partition ${destDevice}3"
-    sudo e2label ${destDevice}3 "zellview-data"
+    sudo e2label ${destDevice}3 "zv-data"
         
     # finnish
     end=$(date +"%H:%M:%S")

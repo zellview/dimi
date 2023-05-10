@@ -22,16 +22,16 @@ Daneben gibt es Anwendungen zur Video- und
 Audiobearbeitung, Programmierung und vieles mehr.  
 
 Um mit ***zellview-dimi*** zu starten download  
->https://download.zellview.network/zellview-dimi.iso  
+>https://download.zellview.network/zv-dimi-ventoy.iso  
 
 Mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:  
   
 >https://download.zellview.network/exe/rufus-4.0.exe  
 
 Jetzt den Rechner neu starten und den USB-Stick als Startmedium wählen.  
-Dies ist je nach Hersteller unterschiedlich. (oft ist es F12 beim Startvorgang)  
+Dies ist je nach Hersteller unterschiedlich. (oft ist es F9 oder F12 beim Startvorgang)  
   
-Viel Spass mit ***zellview-dimi*** und linuxmint
+Viel Spass mit ***zellview-dimi*** und linuxmint  
 
 keep the spirit of Pascal  
 and the message of Niklaus Wirth  

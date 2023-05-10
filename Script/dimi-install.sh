@@ -14,7 +14,7 @@
 
     version="3.1.14"
     name="zellview dimi"
-    label="zellview-dimi"
+    label="zv-dimi"
     release="Nina"
 
     mountPt="mountPoint"

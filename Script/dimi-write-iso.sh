@@ -2,13 +2,13 @@
 
 # MODULE DimiWriteIso;
 
-# 20.April 2023
+# 8. Mai 2023
 # source www.github.com/zellview/dimi
 # copyright by zellview network
 
 # CONST
     Modulename="DimiWriteIso"
-    Version="3.1.10"
+    Version="3.1.14"
 
 # VAR
     destDevice=$1

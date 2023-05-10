@@ -2,7 +2,7 @@
 
 # MODULE DimiReadIso;
 
-# zellview-dimi version 3.1.10 , 20.April 2023
+# zellview-dimi version 3.1.14 , 8. Mai 2023
 # copyright by zellview network
 
 # CONST
@@ -30,7 +30,7 @@
     beg=$(date +"%H:%M:%S")
     echo "$Modulename start at $beg"
     
-    sudo dd if=/dev/$sourceDevice of=../../dimi-rsrc/iso/zv-dimi-3.1.x-ventoy.iso bs=1M count=10010 status=progress
+    sudo dd if=/dev/$sourceDevice of=../../dimi-rsrc/iso/zv-dimi-3.1.14-ventoy.iso bs=1M count=10010 status=progress
     
     # finnish
     end=$(date +"%H:%M:%S")

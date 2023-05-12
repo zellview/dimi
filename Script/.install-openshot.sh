@@ -8,7 +8,7 @@ beg=$(date +"%H:%M:%S")
 echo "start $Modulename at $beg"
 
 sudo add-apt-repository ppa:openshot.developers/ppa -y
-sudo apt update
+sudo apt update -y
 sudo apt install openshot-qt python3-openshot -y
 
 end=$(date +"%H:%M:%S")

@@ -8,7 +8,7 @@
 
 # CONST
     Modulename="DimiWriteIso"
-    Version="3.1.14"
+    Version="3.1.15"
 
 # VAR
     destDevice=$1

@@ -3,7 +3,7 @@
 
 # MODULE DimiCreateDatapart;
 
-# zellview-dimi version 3.1.14 , 8. Mai 2023
+# zellview-dimi version 3.1.15 , 12. Mai 2023
 # copyright by zellview network
 
 # CONST

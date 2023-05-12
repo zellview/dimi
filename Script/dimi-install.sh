@@ -2,7 +2,7 @@
 
 # MODUL DimiInstall;
 
-# zellview-dimi version 3.1.14 , 8. Mai 2023
+# zellview-dimi version 3.1.15 , 12. Mai 2023
 # copyright by zellview network
 
 # CONST
@@ -12,10 +12,10 @@
     sourceUrl="https://download.zellview.network"    # resource locator
     destDevice=$1                                    # destination device
 
-    version="3.1.14"
+    version="3.1.15"
     name="zellview dimi"
     label="zv-dimi"
-    release="Nina"
+    release="Olivia"
 
     mountPt="mountPoint"
     persistPt="persistence"

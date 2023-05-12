@@ -6,7 +6,7 @@
 # BEGIN
     echo "***********************************************"
     echo $Modulname
-    echo "zellview v3.1.06   18.April 2023"
+    echo "zellview v3.1.15   12.Mai 2023"
     echo "copyright by zellview network"
     echo "www.zellview.net"
     echo

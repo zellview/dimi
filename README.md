@@ -1,15 +1,15 @@
-# zellview dimi (dimitria)
+# dimi (dimitria)
 
 ## zellview-dimi ist eine Linux Distribution  
 basierend auf Linuxmint und Ubuntu  
   
 ***zellview-dimi***  kann auf einen USB-Stick startfähig installiert werden.  
   
-Die möglichen Anwendungen sind:  
+Möglichen Anwendungen sind unter anderem:  
 - Linux unverbindlich testen, ohne es auf die Festplatte zu installieren  
 - ein Rettungssystem, wenn der Rechner nicht startet  
-- den eigenen Computer immer dabei in der Hosentasche  
-- ein Rechner für diskrete Anwendungen wie Banking o.ä.  
+- den eigenen Computer immer in der Hosentasche dabei  
+- ein Rechner für diskrete Anwendungen wie Banking, Messaging o.ä.  
   
 Neben der reichhaltigen Softwareausstattung, die Linuxmint  
 schon mitbringt, wie Office, Internet und Bildbearbeitung,  
@@ -24,18 +24,23 @@ Audiobearbeitung, Programmierung und vieles mehr.
 Um mit ***zellview-dimi*** zu starten download  
 >https://download.zellview.network/zv-dimi-ventoy.iso  
 
-Mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:  
-  
+-> unter Windows  
+>mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:    
 >https://download.zellview.network/exe/rufus-4.0.exe  
+
+-> unter Linux  
+    
+> rechte Maustaste auf der ISO-Datei gibt ein Kontextmenü mit dem Punkt  
+> "Startfähigen USB-Stick erzeugen"
 
 Jetzt den Rechner neu starten und den USB-Stick als Startmedium wählen.  
 Dies ist je nach Hersteller unterschiedlich. (oft ist es F9 oder F12 beim Startvorgang)  
   
 Viel Spass mit ***zellview-dimi*** und linuxmint  
 
-keep the spirit of Pascal  
-and the message of Niklaus Wirth  
++ keep the spirit of Pascal and the message of Niklaus Wirth  
++ consider to sponsor zellview ? https://sponsor.zellview.network  
 
 the zellview-team  
 
-©2023 copyright by zellview network  
+©2023 zellview media network 

@@ -5,11 +5,11 @@ basierend auf Linuxmint und Ubuntu
   
 ***zellview-dimi***  kann auf einen USB-Stick startfähig installiert werden.  
   
-Die möglichen Anwendungen sind:  
+Möglichen Anwendungen sind unter anderem:  
 - Linux unverbindlich testen, ohne es auf die Festplatte zu installieren  
 - ein Rettungssystem, wenn der Rechner nicht startet  
-- den eigenen Computer immer dabei in der Hosentasche  
-- ein Rechner für diskrete Anwendungen wie Banking o.ä.  
+- den eigenen Computer immer in der Hosentasche dabei  
+- ein Rechner für diskrete Anwendungen wie Banking, Messaging o.ä.  
   
 Neben der reichhaltigen Softwareausstattung, die Linuxmint  
 schon mitbringt, wie Office, Internet und Bildbearbeitung,  

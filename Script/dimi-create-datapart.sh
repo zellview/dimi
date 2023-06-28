@@ -36,13 +36,13 @@
     
     #TODO
     echo "create primary partition ext4 $destDevice 10.5 GB to 100%"
-    sudo parted $destDevice mkpart primary ext4 10.5GB 100%
+    sudo parted $destDevice mkpart primary ext4 10.5GB 100% 
     
 #    echo "delete partition ${destDevice}3"
 #    sudo parted rm ${destDevice}3
 
     echo "make filesystem ext4 on ${destDevice}3"
-    sudo mkfs.ext4 ${destDevice}3
+    sudo mkfs.ext4 ${destDevice}3 
 
     echo "label partition ${destDevice}3"
     sudo e2label ${destDevice}3 "zv-data"

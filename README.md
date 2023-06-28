@@ -1,4 +1,4 @@
-# zellview dimi (dimitria)
+# dimi (dimitria)
 
 ## zellview-dimi ist eine Linux Distribution  
 basierend auf Linuxmint und Ubuntu  

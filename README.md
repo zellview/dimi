@@ -22,11 +22,11 @@ Daneben gibt es Anwendungen zur Video- und
 Audiobearbeitung, Programmierung und vieles mehr.  
 
 Um mit ***zellview-dimi*** zu starten download  
->https://download.zellview.network/zv-dimi-ventoy.iso  
+>https://download.zellvu.me/zv-dimi-ventoy.iso  
 
 -> unter Windows  
 >mit "Rufus" läßt sich die Iso-Datei auf einen USB-Stick schreiben:    
->https://download.zellview.network/exe/rufus-4.0.exe  
+>https://download.zellvu.me/exe/rufus-4.0.exe  
 
 -> unter Linux  
     

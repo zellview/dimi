@@ -40,6 +40,7 @@ Viel Spass mit ***zellview-dimi*** und linuxmint
 
 + keep the spirit of Pascal and the message of Niklaus Wirth  
 + consider to sponsor zellview ? [click here](https://www.paypal.com/donate/?hosted_button_id=9DN4DSMXQPMW8)
+  
 the zellview-team  
 
 (c)2024 zellview media 

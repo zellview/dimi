@@ -39,8 +39,8 @@ Dies ist je nach Hersteller unterschiedlich. (oft ist es F9 oder F12 beim Startv
 Viel Spass mit ***zellview-dimi*** und linuxmint  
 
 + keep the spirit of Pascal and the message of Niklaus Wirth  
-+ consider to sponsor zellview ? https://zellview.eu  
++ consider to sponsor zellview ? [click here](https://zellview.eu)
 
 the zellview-team  
 
-©2023 zellview media network 
+(c)2024 zellview media 
